@@ -18,8 +18,9 @@ faq:
 - q: Can local models make AI agents cheaper?
   a: Sometimes. Local models can reduce repeat inference costs and improve data control, but they add setup, hardware, routing, and maintenance work.
 hero_image: images/ai-agent-costs/hero.webp
-hero_image_alt: Isometric render of a robot weighing a stack of coins against a gear on a seesaw
+hero_image_alt: Transparent cutout of a tall bronze coin stack outweighing a small gear on a seesaw
 source_draft: 2026-07-07-ai-agent-costs
+updated: '2026-07-07'
 ---
 AI agent cost is not one number. It is a stack.
 
