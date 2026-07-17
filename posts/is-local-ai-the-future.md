@@ -18,8 +18,8 @@ faq:
   a: Not always. Local AI can improve control, privacy, and resilience, but cloud AI usually wins on ease of use, model quality, maintenance, and speed of adoption.
 - q: Should a small business buy hardware for local AI now?
   a: Only if the business has a clear sensitive or repetitive workflow that justifies the cost. Most should pilot the workflow first, then decide what must run locally.
-hero_image: null
-hero_image_alt: null
+hero_image: images/is-local-ai-the-future/hero.webp
+hero_image_alt: Chrome server tower wrapped in a chain, symbolizing local AI control
 source_draft: 2026-07-15-is-local-ai-the-future
 ---
 Local AI is not automatically the future. It is one part of the future: useful when control, privacy, cost discipline, or resilience matter more than convenience. For most small businesses, the right answer is not “buy a server and leave the cloud.” The right answer is to decide which work must stay under your roof, which work can safely use hosted tools, and which work should not be automated yet.

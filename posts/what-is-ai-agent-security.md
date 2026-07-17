@@ -17,8 +17,8 @@ faq:
   a: An AI agent should have the smallest set of permissions needed for the task, scoped by app, data, environment, and time.
 - q: Do AI agents need human approval?
   a: Yes for destructive, external, financial, legal, security-sensitive, or customer-visible actions. Low-risk read-only work can often run automatically.
-hero_image: null
-hero_image_alt: null
+hero_image: images/what-is-ai-agent-security/hero.webp
+hero_image_alt: Chrome vault door with a keyhole, symbolizing AI agent security
 source_draft: 2026-07-13-what-is-ai-agent-security
 ---
 AI agents are useful because they can act. They can open tools, read files, write code, move data, and complete multi-step work without waiting for a person at every click.
