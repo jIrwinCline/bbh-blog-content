@@ -18,8 +18,8 @@ faq:
   a: Yes, when the app is designed for it. The useful cases are searching documents, summarizing notes, drafting from templates, and preparing work for human review.
 - q: Are local AI agents safer than cloud agents?
   a: They can reduce data exposure, but they are not automatically safe. They still need permissions, logs, human approval, and clear rules about which tools they can use.
-hero_image: null
-hero_image_alt: null
+hero_image: images/what-can-local-ai-agents-do/hero.webp
+hero_image_alt: Chrome file cabinet with a small gear representing local AI agents working near private business files
 source_draft: 2026-07-20-what-can-local-ai-agents-do
 ---
 Local AI agents can handle real business work when the task is close to files, notes, documents, or repeated decisions that already happen on a computer. They can search private context, draft from company material, inspect files, summarize meetings, and prepare next actions without sending every input through a hosted agent product.
