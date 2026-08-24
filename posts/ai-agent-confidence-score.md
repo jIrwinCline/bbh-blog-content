@@ -10,6 +10,8 @@ keywords:
 - AI agent reliability
 - agent evaluation
 - AI source checking
+- confidence scoring AI evaluation
+- account confidence scoring
 pillar: Preparation
 faq:
 - q: What is an AI agent confidence score?
@@ -21,6 +23,7 @@ faq:
 hero_image: images/ai-agent-confidence-score/hero.webp
 hero_image_alt: Sealed evidence folder with a blank glass inspection seal
 source_draft: 2026-08-05-ai-agent-confidence-score
+updated: '2026-08-24'
 ---
 A confidence score feels like discipline. It gives a number. It fits in a dashboard. It lets a manager see a green indicator and move on.
 
@@ -67,6 +70,22 @@ Next, keep logs. An agent that cannot show what it did is hard to trust. Logs do
 Then set boundaries. If the agent is writing drafts, let it draft. If it is changing records, restrict which fields it may change. If it is sending messages, keep a human approval lane until the workflow has earned more autonomy.
 
 Finally, decide which actions need human approval. This is not anti-AI. It is how useful automation survives contact with reality. A good agent system reduces the number of decisions a human must touch. It does not pretend every decision has the same risk.
+
+## How does account confidence scoring work in an AI workflow?
+
+Account confidence scoring usually means ranking a customer, lead, or account by how likely it is to fit a goal: convert, churn, expand, need support, or deserve immediate follow-up. In an AI workflow, the danger is the same as with agent confidence: the score can look authoritative before the evidence is strong.
+
+A useful account score should separate three things:
+
+1. **The inputs.** Which fields, conversations, tickets, usage patterns, or source documents did the agent inspect?
+2. **The rule or model.** Is the score based on fixed criteria, a trained model, a language-model judgment, or a blend?
+3. **The action.** What changes because the account got a high or low score?
+
+That last piece matters most. If a score only changes queue order, a softer signal may be acceptable. If it changes pricing, support priority, credit risk, contract review, or an outbound message, it needs stronger evidence and a review lane.
+
+For a service business, a lead-scoring agent might say, "high confidence: emergency HVAC request, inside service area, phone number present, previous customer." That is better than "92 percent" because the operator can inspect the reasons. The same rule applies to a CRM account score: the agent should show the fields it used, cite the source records, and name what it could not verify.
+
+The honest catch is that evidence-rich scoring is slower to design. You have to define the fields that matter and the actions the score is allowed to trigger. But once that standard exists, the team can delegate more safely. The score becomes a routing tool, not an invisible judgment.
 
 ## When is a confidence score still useful?
 
