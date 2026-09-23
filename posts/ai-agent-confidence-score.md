@@ -12,6 +12,8 @@ keywords:
 - AI source checking
 - confidence scoring AI evaluation
 - account confidence scoring
+- what is a good AI score
+- AI score
 pillar: Preparation
 faq:
 - q: What is an AI agent confidence score?
@@ -23,7 +25,7 @@ faq:
 hero_image: images/ai-agent-confidence-score/hero.webp
 hero_image_alt: Sealed evidence folder with a blank glass inspection seal
 source_draft: 2026-08-05-ai-agent-confidence-score
-updated: '2026-08-24'
+updated: '2026-09-23'
 ---
 A confidence score feels like discipline. It gives a number. It fits in a dashboard. It lets a manager see a green indicator and move on.
 
@@ -86,6 +88,22 @@ That last piece matters most. If a score only changes queue order, a softer sign
 For a service business, a lead-scoring agent might say, "high confidence: emergency HVAC request, inside service area, phone number present, previous customer." That is better than "92 percent" because the operator can inspect the reasons. The same rule applies to a CRM account score: the agent should show the fields it used, cite the source records, and name what it could not verify.
 
 The honest catch is that evidence-rich scoring is slower to design. You have to define the fields that matter and the actions the score is allowed to trigger. But once that standard exists, the team can delegate more safely. The score becomes a routing tool, not an invisible judgment.
+
+## What is a good AI score?
+
+A good AI score is one that explains what it measured, what evidence it used, and what action it is allowed to change. A high number by itself is not good. A lower score with clear reasons can be more useful than a polished 96 percent confidence badge.
+
+This is where many AI dashboards mislead operators. They compress uncertainty into a single green or red indicator. That can be helpful when the score is routing attention: review this support draft first, check this lead before calling, inspect this claim before publishing. It is weak when the score becomes the decision.
+
+If a vendor, agent, or internal workflow gives you an AI score, ask three practical questions:
+
+1. **What produced the score?** Was it the same model that wrote the answer, a separate evaluator, a rules engine, a retrieval check, or a human-reviewed benchmark?
+2. **What does the score allow?** Does it only reorder a queue, or does it send messages, change records, approve spend, or hide work from review?
+3. **What proof comes with it?** Can a person see the sources, failed checks, missing facts, and reason for escalation?
+
+For serious business workflows, a “good” AI score should be boring. It should make review easier, not replace review. It should tell the operator why something is likely ready, what remains uncertain, and what would happen if the system is wrong.
+
+That is the line between an AI score and an operational control. The score is a summary. The control is the evidence, the boundary, and the review path behind it.
 
 ## When is a confidence score still useful?
 
