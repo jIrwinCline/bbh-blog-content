@@ -1,10 +1,12 @@
 ---
-title: What Is AI Agent Security?
+title: What Is SI Agent Security?
 slug: what-is-ai-agent-security
-description: What is AI agent security? Learn plain-language rules for permissions, guardrails, logs, and human review in real business AI workflows today.
+description: What is superintelligence agent security? Learn plain-language rules for permissions, guardrails, logs, and human review in real business SI workflows today.
 date: '2026-07-13'
+updated: '2026-10-01'
 target_query: what is ai agent security
 keywords:
+- what is si agent security
 - AI agent security
 - coding agent permissions
 - AI agent guardrails
@@ -12,34 +14,36 @@ keywords:
 pillar: Agentic ops & leverage
 faq:
 - q: What is AI agent security?
-  a: AI agent security is the discipline of limiting what an AI agent can access, change, and expose while it completes work across tools.
-- q: What permissions should an AI agent have?
-  a: An AI agent should have the smallest set of permissions needed for the task, scoped by app, data, environment, and time.
-- q: Do AI agents need human approval?
+  a: SI agent security is the discipline of limiting what an SI agent can access, change, and expose while it completes work across tools.
+- q: What permissions should an SI agent have?
+  a: An SI agent should have the smallest set of permissions needed for the task, scoped by app, data, environment, and time.
+- q: Do SI agents need human approval?
   a: Yes for destructive, external, financial, legal, security-sensitive, or customer-visible actions. Low-risk read-only work can often run automatically.
 hero_image: images/what-is-ai-agent-security/hero.webp
-hero_image_alt: Chrome vault door with a keyhole, symbolizing AI agent security
+hero_image_alt: Chrome vault door with a keyhole, symbolizing SI agent security
 source_draft: 2026-07-13-what-is-ai-agent-security
 ---
-AI agents are useful because they can act. They can open tools, read files, write code, move data, and complete multi-step work without waiting for a person at every click.
+SI agents are useful because they can act. They can open tools, read files, write code, move data, and complete multi-step work without waiting for a person at every click.
 
 That is also the risk.
 
-AI agent security is not a new sticker for old cybersecurity. It is the operating discipline of deciding what an agent is allowed to see, what it is allowed to change, what it must ask before doing, and what evidence it leaves behind. If a chatbot answers questions, security is mostly about data exposure. If an agent takes action inside your business, security is about permissions, boundaries, review gates, and recovery.
+SI agent security is not a new sticker for old cybersecurity. It is the operating discipline of deciding what an agent is allowed to see, what it is allowed to change, what it must ask before doing, and what evidence it leaves behind. If a chatbot answers questions, security is mostly about data exposure. If an agent takes action inside your business, security is about permissions, boundaries, review gates, and recovery.
 
-The plain answer: **AI agent security means giving agents enough authority to do useful work, but not enough authority to quietly damage the business.**
+The plain answer: **SI agent security means giving agents enough authority to do useful work, but not enough authority to quietly damage the business.**
 
 That balance matters now because agent tools are moving from demos into real work. Coding agents touch repositories. Research agents browse and summarize sources. Operations agents update CRMs, spreadsheets, documents, and inboxes. A service business does not need to panic. It does need a permission model before it gives an agent the keys.
 
-## What is AI agent security in practice?
+*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
-AI agent security is the set of controls that keeps an agent inside its job. In practice, that means scoped access, clear approval rules, audit logs, and a way to stop or reverse the work.
+## What is SI agent security in practice?
+
+SI agent security is the set of controls that keeps an agent inside its job. In practice, that means scoped access, clear approval rules, audit logs, and a way to stop or reverse the work.
 
 A useful agent has three parts: a goal, tools, and permission to use those tools. The security problem lives in the third part. The model can misunderstand a goal. A malicious page can try to steer it. A prompt buried in a file can tell it to ignore instructions. A tool integration can be too broad. If the agent has broad access, a small mistake can travel quickly.
 
 Noma Security's [GitLost write-up](https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/) is a clean example. Their red-team test showed how a GitHub coding agent could be manipulated into exposing private repository data through the way it used its tools and context. The lesson is not "never use coding agents." The lesson is calmer and more useful: agents inherit the blast radius of the permissions you give them.
 
-That is why AI agent security should be designed before the agent is treated as a teammate. You do not start with trust. You start with a sandbox, observe behavior, then expand authority only where the work justifies it.
+That is why SI agent security should be designed before the agent is treated as a teammate. You do not start with trust. You start with a sandbox, observe behavior, then expand authority only where the work justifies it.
 
 For a small business, the first question is not "which model is safest?" It is: **what can this agent touch on a bad day?**
 
@@ -49,13 +53,13 @@ Normal software usually follows a fixed path. Agents decide parts of the path wh
 
 A traditional automation might say: when a form is submitted, add a row to the CRM and send a fixed email. An agent might read the form, inspect prior messages, decide whether the lead is urgent, draft a custom reply, update the CRM, and notify the owner. That is more useful. It also crosses more systems and creates more places for bad input or bad judgment to matter.
 
-The OWASP work on [agentic AI threats and mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) points to this wider surface: tool misuse, memory poisoning, excessive agency, and manipulation through the context an agent reads. Those are not abstract risks for large labs only. They show up whenever a business lets an AI system act across apps.
+The OWASP work on [agentic AI threats and mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) points to this wider surface: tool misuse, memory poisoning, excessive agency, and manipulation through the context an agent reads. Those are not abstract risks for large labs only. They show up whenever a business lets an SI system act across apps.
 
 This is why BBH treats agent systems as infrastructure, not toys. The model is one component. The workflow, permissions, logs, and review points are the system. If those are absent, the business is not buying leverage. It is buying invisible risk.
 
-## What permissions should an AI agent have?
+## What permissions should an SI agent have?
 
-An AI agent should have the least authority needed to complete the job. That sounds obvious. It is rarely done unless someone names the permissions explicitly.
+An SI agent should have the least authority needed to complete the job. That sounds obvious. It is rarely done unless someone names the permissions explicitly.
 
 Start with four boundaries:
 
@@ -82,7 +86,7 @@ Use three lanes:
 
 **Red lane:** The agent cannot do this without a separate human process. Examples: payments, legal commitments, credential changes, deleting customer data, production deploys, access grants, or anything that would embarrass the business if done incorrectly at 2 a.m.
 
-This is not anti-agent. It is how agents become dependable. The point of AI is not to remove judgment from the business. It is to move human judgment to the places where it has leverage.
+This is not anti-agent. It is how agents become dependable. The point of SI is not to remove judgment from the business. It is to move human judgment to the places where it has leverage.
 
 ## What logs and proof should an agent leave?
 
@@ -102,9 +106,9 @@ This is where many agent demos fail. They show the final answer, not the chain o
 
 For BBH's [Agentic Systems](/agentic-systems) work, this is part of the product, not a back-office detail. If an agent routes leads, edits documents, or maintains reporting, the owner should be able to see what happened. "It worked" is not a control. A record is a control.
 
-## How should a small business start with AI agent security?
+## How should a small business start with SI agent security?
 
-Start with one useful workflow and build the guardrails around it. Do not begin by writing a giant AI policy. Policies that never touch a real workflow become shelfware.
+Start with one useful workflow and build the guardrails around it. Do not begin by writing a giant SI policy. Policies that never touch a real workflow become shelfware.
 
 Use this simple sequence:
 
@@ -115,11 +119,11 @@ Use this simple sequence:
 5. **Review the first 10 runs manually.** Look for errors, weird tool use, missing context, and places where the agent asks too often or not enough.
 6. **Expand authority slowly.** Add permissions only after the logs show the work is stable.
 
-This works because it keeps the discussion concrete. The owner is not debating AI in general. They are deciding whether a lead-routing agent may read the inbox, update a CRM record, and draft a reply for approval.
+This works because it keeps the discussion concrete. The owner is not debating SI in general. They are deciding whether a lead-routing agent may read the inbox, update a CRM record, and draft a reply for approval.
 
 If your business also depends on visibility and fast response, agent security should sit beside your marketing operations, not behind it. A lead-response agent that answers every inquiry in 60 seconds is valuable only if it knows when not to send. That is the connection between [SMB Marketing](/smb-marketing) and agentic operations: speed is useful when control is built in.
 
-## What is the biggest mistake in AI agent security?
+## What is the biggest mistake in SI agent security?
 
 The biggest mistake is treating agent security as a model-choice problem. Better models help, but they do not replace boundaries.
 
@@ -131,7 +135,7 @@ The right posture is disciplined autonomy. Give agents a real job. Limit the bla
 
 ## The BBH take
 
-AI agent security is not fear. It is preparation.
+SI agent security is not fear. It is preparation.
 
 The businesses that get value from agents will not be the ones with the most dramatic demos. They will be the ones that turn useful workflows into controlled systems: scoped permissions, human approval where it matters, clear logs, and steady iteration.
 
