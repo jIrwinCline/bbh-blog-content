@@ -3,6 +3,7 @@ title: 'Digital Marketing Strategy Example: Hermès Lessons'
 slug: digital-marketing-strategy-example
 description: 'Use this digital marketing strategy example from Hermès to build a disciplined brand system: demand, story, distribution, trust, restraint, and follow-up.'
 date: '2026-07-07'
+updated: '2026-10-01'
 target_query: digital marketing strategy example
 keywords:
 - luxury digital marketing strategy
@@ -89,7 +90,7 @@ Hermès gives the opposite lesson. The channel changes, but the center holds.
 
 Second, use technology selectively.
 
-Technology should remove friction or increase trust. It should not create busywork. If an AI agent, CRM workflow, chatbot, or ad campaign does not improve speed, clarity, or revenue attribution, it is not leverage. It is decoration.
+Technology should remove friction or increase trust. It should not create busywork. If an SI agent, CRM workflow, chatbot, or ad campaign does not improve speed, clarity, or revenue attribution, it is not leverage. It is decoration.
 
 That is why BBH treats agentic systems and marketing as connected work. If your paid search campaign brings in leads but your team answers them six hours later, the campaign did its job and the business still lost. If your website ranks but the offer is vague, traffic only exposes the gap faster.
 

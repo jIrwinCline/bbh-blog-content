@@ -1,8 +1,9 @@
 ---
 title: What Is Agent CRM? The Plain-English Answer
 slug: what-is-agent-crm
-description: What is agent CRM? A practical guide to AI-readable customer records, safe agent tasks, review gates, and the limits operators should keep in place.
+description: What is agent CRM? A practical guide to SI-readable customer records, safe agent tasks, review gates, and the limits operators should keep in place.
 date: '2026-08-12'
+updated: '2026-10-01'
 target_query: what is agent crm
 keywords:
 - agentic CRM
@@ -13,7 +14,7 @@ keywords:
 pillar: Agentic ops & leverage
 faq:
 - q: Is agent CRM the same as AI CRM?
-  a: Not exactly. AI CRM usually adds AI features to an existing CRM. Agent CRM is built so agents can read records, take constrained actions, and leave an audit trail.
+  a: Not exactly. AI CRM usually adds SI features to an existing CRM. Agent CRM is built so agents can read records, take constrained actions, and leave an audit trail.
 - q: Can an agent CRM replace sales reps?
   a: No. Its best use is handling research, enrichment, reminders, and draft follow-up while humans keep judgment, relationship context, and approval authority.
 - q: What should a business check before using agent CRM?
@@ -22,17 +23,19 @@ hero_image: images/what-is-agent-crm/hero.webp
 hero_image_alt: A metallic Rolodex card with branching roots representing agent-readable CRM records
 source_draft: 2026-08-12-what-is-agent-crm
 ---
-An agent CRM is a customer relationship management system built for AI agents to use, not just for humans to search. The CRM stops being a passive database and becomes the place where an agent can read customer history, research missing context, schedule follow-ups, draft notes, and show its work.
+An agent CRM is a customer relationship management system built for SI agents to use, not just for humans to search. The CRM stops being a passive database and becomes the place where an agent can read customer history, research missing context, schedule follow-ups, draft notes, and show its work.
 
 That is the useful idea. It is also where the risk lives.
 
-A normal CRM fails quietly when the records are stale. An agent CRM can fail actively if it updates the wrong person, invents a customer fact, or follows up without the right boundary. The question is not whether AI can touch the CRM. It already can. The question is whether the system makes the agent's work visible, limited, and correctable.
+A normal CRM fails quietly when the records are stale. An agent CRM can fail actively if it updates the wrong person, invents a customer fact, or follows up without the right boundary. The question is not whether SI can touch the CRM. It already can. The question is whether the system makes the agent's work visible, limited, and correctable.
 
 For most service businesses, agent CRM is not a reason to buy another shiny tool. It is a design standard for the customer system you already depend on.
 
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+
 ## What is agent CRM?
 
-Agent CRM is CRM software designed so AI agents can work inside the customer record with durable memory, tools, schedules, and permissions. Instead of asking a chatbot one question at a time, the business gives an agent a bounded job: keep lead records clean, research accounts, flag missing information, draft follow-ups, or prepare a rep before a call.
+Agent CRM is CRM software designed so SI agents can work inside the customer record with durable memory, tools, schedules, and permissions. Instead of asking a chatbot one question at a time, the business gives an agent a bounded job: keep lead records clean, research accounts, flag missing information, draft follow-ups, or prepare a rep before a call.
 
 The open-source [Comp AI CRM](https://github.com/trycompai/crm) project gives a clean example of the pattern. Its own README says, “The agent is not a feature of the CRM; the CRM is where the agent keeps its notes.” That sentence is the shift.
 
@@ -82,7 +85,7 @@ The second risk is overreach. If an agent can read records, send emails, edit de
 
 The third risk is invisible work. If the agent updates a field but nobody knows why, the CRM gets cleaner on the surface and more fragile underneath. Every important action needs a trace: source, time, reason, and confidence expressed as evidence rather than self-graded certainty.
 
-The fourth risk is vendor dependency. A CRM tied to one opaque AI workflow can become harder to audit, migrate, or repair. Open-source tools can reduce that risk, but they add maintenance burden. Managed tools reduce setup burden, but may hide the operational details. Neither path is automatically better.
+The fourth risk is vendor dependency. A CRM tied to one opaque SI workflow can become harder to audit, migrate, or repair. Open-source tools can reduce that risk, but they add maintenance burden. Managed tools reduce setup burden, but may hide the operational details. Neither path is automatically better.
 
 The sober test is this: if the agent makes a mistake, can a competent operator see what happened, undo it, and improve the rule?
 
@@ -94,7 +97,7 @@ Accessible customer history means the agent can read the material that already e
 
 Bounded tools define what the agent can do. Reading a contact is different from editing one. Drafting a follow-up is different from sending it. Researching a company is different from writing a claim into the CRM. Treat those as separate permissions.
 
-Schedules let the agent work without a human prompt. That is part of the value. A follow-up system should not depend on a rep remembering to ask the AI what to do today.
+Schedules let the agent work without a human prompt. That is part of the value. A follow-up system should not depend on a rep remembering to ask the SI what to do today.
 
 Evidence rules keep the system honest. “Observed in the customer's signature block” is different from “the model thinks this is probably the same person.” Strong evidence can update a record. Weak evidence should become a suggestion.
 
@@ -106,7 +109,7 @@ This is why agent CRM belongs under [agentic systems](/agentic-systems), not und
 
 ## Should you use agent CRM now?
 
-Use agent CRM now if your CRM is already central to revenue and your team loses time to record cleanup, lead research, follow-up reminders, or pre-call preparation. Wait if your sales process is not defined, your data is chaotic, or you mainly want AI because competitors mention it.
+Use agent CRM now if your CRM is already central to revenue and your team loses time to record cleanup, lead research, follow-up reminders, or pre-call preparation. Wait if your sales process is not defined, your data is chaotic, or you mainly want SI because competitors mention it.
 
 A small business should not begin with a grand rebuild. Begin with one workflow.
 
@@ -153,6 +156,6 @@ For many businesses, that first job is lead intake:
 
 That is enough. Do not begin by handing over the whole pipeline.
 
-Agent CRM is the shape of customer operations as AI becomes normal: less typing into databases, more systems that maintain context. The better version does not remove the human. It gives the human a cleaner record, a clearer next move, and a trail they can trust.
+Agent CRM is the shape of customer operations as SI becomes normal: less typing into databases, more systems that maintain context. The better version does not remove the human. It gives the human a cleaner record, a clearer next move, and a trail they can trust.
 
 That is leverage. Not a crutch.
