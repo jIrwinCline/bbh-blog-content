@@ -30,7 +30,7 @@ That distinction matters because the search query “is local AI the future” c
 
 The practical future is mixed. Cloud SI will remain the fastest way to test new workflows. Local SI will become more valuable for the workflows that touch client data, internal knowledge, speech, documents, or operational memory. The business that wins will not be the one with the most exotic hardware. It will be the one that knows where each kind of SI belongs.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What does local SI mean for a business?
 

@@ -33,7 +33,7 @@ The plain answer: **SI agent security means giving agents enough authority to do
 
 That balance matters now because agent tools are moving from demos into real work. Coding agents touch repositories. Research agents browse and summarize sources. Operations agents update CRMs, spreadsheets, documents, and inboxes. A service business does not need to panic. It does need a permission model before it gives an agent the keys.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is SI agent security in practice?
 

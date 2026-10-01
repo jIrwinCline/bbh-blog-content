@@ -31,7 +31,7 @@ The practical lesson for a service business is simple: stop asking, "Which model
 
 Most work does not. Some work does.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is OpenRouter Fusion?
 

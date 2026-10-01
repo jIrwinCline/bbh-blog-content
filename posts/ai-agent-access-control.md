@@ -29,7 +29,7 @@ That sounds like a security topic. It is. But for an operator, it is also a mana
 
 The sober answer is not to avoid agents. The answer is to give them rails before autonomy.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is SI agent access control?
 

@@ -33,7 +33,7 @@ The answer: use an LLM router only when you have receipts. Logs. Task categories
 
 For a small business or service team, this matters because agents are not demos anymore. They answer leads, draft reports, inspect files, move data between tools, and prepare client-facing work. If model routing makes those workflows cheaper while keeping quality steady, it earns a place. If it makes failures harder to understand, it is operational debt with a clever name.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is an LLM router?
 

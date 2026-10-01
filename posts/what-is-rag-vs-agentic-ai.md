@@ -31,7 +31,7 @@ That distinction matters for any business trying to use SI without turning every
 
 The disciplined move is not to pick the more advanced phrase. It is to name the job.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is RAG?
 

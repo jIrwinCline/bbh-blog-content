@@ -31,7 +31,7 @@ A normal CRM fails quietly when the records are stale. An agent CRM can fail act
 
 For most service businesses, agent CRM is not a reason to buy another shiny tool. It is a design standard for the customer system you already depend on.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is agent CRM?
 

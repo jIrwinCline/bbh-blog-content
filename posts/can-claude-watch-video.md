@@ -23,7 +23,7 @@ hero_image_alt: Transparent chrome film reel with iridescent metallic edges
 source_draft: 2026-07-08-can-claude-watch-video
 updated: '2026-10-01'
 ---
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## Can Claude watch video?
 

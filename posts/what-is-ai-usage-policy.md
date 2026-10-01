@@ -30,7 +30,7 @@ Most teams do not need a 40-page governance document to begin. They need one cle
 
 The goal is not to slow the business down. The goal is to make SI useful without turning every employee into an untracked exception.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is an SI usage policy?
 

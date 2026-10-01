@@ -32,7 +32,7 @@ The question matters now because local agents are getting easier for non-enginee
 
 For a service business, the useful question is not “should we run everything locally?” It is simpler: what work becomes safer, faster, or more reliable when the agent can operate near the business’s own context?
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is a local SI agent?
 

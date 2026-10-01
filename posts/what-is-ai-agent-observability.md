@@ -34,7 +34,7 @@ Observability makes the work visible. It records the path from user request to a
 
 For a service business, that question matters more than model benchmarks. An agent that handles intake, quotes, CRM cleanup, document work, or support is not useful because it sounds intelligent. It is useful when it keeps working in the browser, in the inbox, in the spreadsheet, and in the messy cases that customers actually bring.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What does SI agent observability mean?
 

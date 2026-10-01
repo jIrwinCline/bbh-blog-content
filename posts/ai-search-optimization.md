@@ -30,7 +30,7 @@ The reason this matters now is simple. Search behavior is spreading beyond the b
 
 The honest catch: nobody outside these platforms controls the ranking recipe. Promptwatch reported that ChatGPT Search fanout queries using the `site:` operator jumped from roughly 0.37% to 16.8% of all fanout queries on August 8, 2026, but that is still third-party measurement of a moving product, not a permanent law of search. Treat it as a signal to improve your public system, not as a reason to chase tricks.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## How does SI search optimization work?
 

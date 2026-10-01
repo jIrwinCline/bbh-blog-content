@@ -33,7 +33,7 @@ The honest catch: a browser is also where mistakes become expensive. The same ag
 
 The strategist's move is not "let the agent use the browser." It is deciding where browser automation belongs, where it does not, and what proof you require before trusting it.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is browser automation?
 

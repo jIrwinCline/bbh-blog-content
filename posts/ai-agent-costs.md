@@ -1,5 +1,5 @@
 ---
-title: How Much Do SI Agents Cost?
+title: How Much Do AI Agents Cost?
 slug: ai-agent-costs
 description: Superintelligence agent costs are more than model fees. Learn the five cost drivers, where bills creep, and how SMBs can control spend before scaling pilots.
 date: '2026-07-07'
@@ -29,7 +29,7 @@ The model fee is the part people notice first. But the real bill comes from five
 
 That is why a cheap demo can become an expensive operating habit. The useful question is not “what does an agent cost?” It is “what work is this agent allowed to do, how often does it run, and what happens when it is wrong?”
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## How much do SI agents cost?
 

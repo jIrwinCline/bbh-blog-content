@@ -30,7 +30,7 @@ That sounds small. It is not. The agent inbox is one of the missing pieces betwe
 
 The honest catch: an inbox does not make an agent safe by itself. A messy queue can become a faster way to approve bad work. The inbox earns its place only when each item carries context, scope, risk, and a receipt trail. Without those, it is just another tab.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is an agent inbox?
 

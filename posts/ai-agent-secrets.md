@@ -34,7 +34,7 @@ The answer is not to avoid agents. The answer is to treat credentials as operati
 
 The honest catch: this adds friction at the start. A credential plan feels slower than pasting a key and seeing the demo run. But that friction is the price of turning a demo into a business system.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What are SI agent secrets?
 

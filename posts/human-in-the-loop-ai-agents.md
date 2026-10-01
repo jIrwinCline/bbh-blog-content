@@ -30,7 +30,7 @@ An agent can draft, search, compare, summarize, route, and prepare work faster t
 
 That is what human-in-the-loop authorization means: the agent does the work up to a boundary, pauses, shows the evidence, and waits for a human decision.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is human-in-the-loop authorization for SI agents?
 

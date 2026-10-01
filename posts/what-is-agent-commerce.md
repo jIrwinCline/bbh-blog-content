@@ -31,7 +31,7 @@ That sounds like ecommerce with a smarter chatbot. It is not. The shift is that 
 
 For a service business, the useful question is not “will AI agents replace websites?” The useful question is: when a buyer’s agent asks the market who can solve this problem, will your business be legible, trusted, and ready to answer?
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is agent commerce?
 

@@ -32,7 +32,7 @@ That is both the opportunity and the risk. An agent can move faster than a perso
 
 The practical answer is simple: before autonomy, build a permission map.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What can SI agents access?
 

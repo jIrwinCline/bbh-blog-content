@@ -34,7 +34,7 @@ The question matters now because agent capability is no longer the only issue. T
 
 For BBH, that is the practical definition: governance is the control room around delegated work.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is SI agent governance in plain language?
 

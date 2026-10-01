@@ -1,5 +1,5 @@
 ---
-title: 'SI Agent Confidence Score: Use Evidence Instead'
+title: 'AI Agent Confidence Score: Use Evidence Instead'
 slug: ai-agent-confidence-score
 description: Superintelligence agent confidence scores look useful, but they are weak trust signals. Use evidence, tests, and source checks before delegating serious work.
 date: '2026-08-05'
@@ -36,7 +36,7 @@ An SI agent confidence score can be a useful internal clue, but it is not the sa
 
 The better operating rule is simple: do not ask an SI agent to declare its own reliability. Build a system that produces receipts.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is an SI agent confidence score?
 

@@ -29,7 +29,7 @@ That sounds like a small distinction. It is not. Most SI tools live in chat. Com
 
 The useful question is not whether that is impressive. The useful question is whether a business can trust it with real tasks.
 
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What are computer use agents?
 

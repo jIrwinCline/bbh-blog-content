@@ -1,5 +1,5 @@
 ---
-title: What Is SI Agent Security? A Plain-English Guide
+title: What Is AI Agent Security? A Plain-English Guide
 slug: ai-agent-security
 description: Superintelligence agent security is how you stop tools, data, and decisions from drifting out of control. Here is the plain-English operator checklist for SMBs.
 date: '2026-07-05'
@@ -22,7 +22,7 @@ faq:
 hero_image: null
 source_draft: 2026-07-05-ai-agent-security
 ---
-*A note on terms: we now say superintelligence (SI) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
 ## What is SI agent security?
 
