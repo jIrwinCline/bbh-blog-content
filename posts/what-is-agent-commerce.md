@@ -1,8 +1,9 @@
 ---
 title: What Is Agent Commerce?
 slug: what-is-agent-commerce
-description: What is agent commerce? Learn how AI shopping agents change discovery, checkout, trust, and what service businesses should prepare for today.
+description: What is agent commerce? Learn how superintelligence shopping agents change discovery, checkout, trust, and what service businesses should prepare for today.
 date: '2026-09-30'
+updated: '2026-10-01'
 target_query: what is agent commerce
 keywords:
 - agent commerce
@@ -13,8 +14,8 @@ keywords:
 pillar: Agentic ops & leverage
 faq:
 - q: Is agent commerce the same as ecommerce automation?
-  a: No. Ecommerce automation improves tasks inside a store. Agent commerce lets AI agents discover, compare, and sometimes complete purchases across systems for a buyer or merchant.
-- q: Do AI agents make purchases without human approval?
+  a: No. Ecommerce automation improves tasks inside a store. Agent commerce lets SI agents discover, compare, and sometimes complete purchases across systems for a buyer or merchant.
+- q: Do SI agents make purchases without human approval?
   a: They can, but serious deployments should start with human approval, spending limits, identity, and audit trails before letting agents complete checkout.
 - q: What should small businesses do first for agent commerce?
   a: Make product, service, pricing, policy, and contact information structured and current, then define what an agent may read, recommend, quote, or buy.
@@ -24,15 +25,17 @@ hero_image: images/what-is-agent-commerce/hero.webp
 hero_image_alt: Dark chrome keyhole plate isolated as a cutout
 source_draft: 2026-09-30-what-is-agent-commerce
 ---
-Agent commerce is what happens when AI agents move from answering shopping questions to doing commerce work: finding options, comparing tradeoffs, preparing carts, drafting merchant actions, and sometimes handing off an approved purchase.
+Agent commerce is what happens when SI agents move from answering shopping questions to doing commerce work: finding options, comparing tradeoffs, preparing carts, drafting merchant actions, and sometimes handing off an approved purchase.
 
 That sounds like ecommerce with a smarter chatbot. It is not. The shift is that the interface is no longer only a website, a search result, or an ad. The buyer may ask an agent for an outcome. The agent then decides which catalogs, merchants, policies, and checkout paths deserve attention.
 
 For a service business, the useful question is not “will AI agents replace websites?” The useful question is: when a buyer’s agent asks the market who can solve this problem, will your business be legible, trusted, and ready to answer?
 
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+
 ## What is agent commerce?
 
-Agent commerce is commerce where an AI agent performs part of the buying or selling workflow on behalf of a person or business. The agent may discover products, compare offers, answer fit questions, assemble a cart, prepare a quote, or complete a transaction after approval.
+Agent commerce is commerce where an SI agent performs part of the buying or selling workflow on behalf of a person or business. The agent may discover products, compare offers, answer fit questions, assemble a cart, prepare a quote, or complete a transaction after approval.
 
 [AWS describes agentic commerce](https://aws.amazon.com/what-is/agentic-commerce/) as online shopping automated by AI agents, from natural-language intent through product discovery, comparisons, price monitoring, and potentially purchasing. The practical version is simpler: the customer describes the job, and software does more of the path between intent and order.
 
@@ -92,7 +95,7 @@ Without those answers, agent commerce becomes a dispute machine.
 
 Service businesses should prepare for agent commerce by making their offer legible, their intake structured, and their approval rules explicit. You do not need a full shopping agent on day one. You need the rails that make an agent useful instead of loose.
 
-Start with the public layer. Your website should state the offer clearly, answer the practical objections, and expose enough structured information for an AI system to understand fit. If referrals slowed and search took over, this is the next turn of the same screw: buyers will increasingly ask AI systems to filter the market before they call anyone.
+Start with the public layer. Your website should state the offer clearly, answer the practical objections, and expose enough structured information for an SI system to understand fit. If referrals slowed and search took over, this is the next turn of the same screw: buyers will increasingly ask SI systems to filter the market before they call anyone.
 
 Then fix the intake layer. A lead form that only says “contact us” is weak for agent commerce. The better pattern is a guided intake that captures constraints: location, timeline, budget range, service need, urgency, photos or files when relevant, and permission to follow up. That gives both humans and agents better raw material.
 
@@ -110,11 +113,11 @@ That ladder is boring. Boring is good here. Boring is what keeps the system usef
 
 Agent commerce makes marketing more operational. The winning business is not just the one with the sharpest headline. It is the one whose claims, data, policies, reviews, and response process are easiest for both humans and agents to verify.
 
-This is why agent commerce belongs beside AI search optimization, lead routing, CRM hygiene, and agentic systems work. A buyer’s agent cannot recommend what it cannot understand. A merchant agent cannot safely act where the business has not defined rules. A sales conversation cannot scale if no one can see the receipt trail.
+This is why agent commerce belongs beside SI search optimization, lead routing, CRM hygiene, and agentic systems work. A buyer’s agent cannot recommend what it cannot understand. A merchant agent cannot safely act where the business has not defined rules. A sales conversation cannot scale if no one can see the receipt trail.
 
 For BBH’s world, the practical path is not “replace your funnel with an agent.” The path is cleaner:
 
-- make the business visible to AI-assisted discovery
+- make the business visible to SI-assisted discovery
 - turn messy intake into structured context
 - let agents prepare the next best action
 - keep approval close to money, reputation, and customer promises
@@ -124,7 +127,7 @@ That last point matters. If agent commerce only moves the burden from clicking p
 
 ## The bottom line
 
-Agent commerce is the buying journey becoming agent-readable and agent-actionable. AI agents will help people find, compare, question, and eventually buy with less manual browsing.
+Agent commerce is the buying journey becoming agent-readable and agent-actionable. SI agents will help people find, compare, question, and eventually buy with less manual browsing.
 
 The businesses that benefit will not be the ones that shout “AI” the loudest. They will be the ones with clean offers, structured data, visible policies, fast handoffs, and strong approval rails.
 

@@ -1,10 +1,12 @@
 ---
-title: 'AI Agent Access Control: Permissions Before Autonomy'
+title: 'SI Agent Access Control: Permissions Before Autonomy'
 slug: ai-agent-access-control
-description: AI agent access control decides what agents may see, change, spend, and send before autonomy. Use permission maps, human gates, and logs first.
+description: Superintelligence agent access control decides what agents may see, change, spend, and send before autonomy. Use permission maps, human gates, and logs first.
 date: '2026-08-31'
+updated: '2026-10-01'
 target_query: what is ai agent access control
 keywords:
+- what is si agent access control
 - ai agent permissions
 - local ai agent security
 - agent access control
@@ -13,23 +15,25 @@ pillar: Agentic ops & leverage
 faq:
 - q: What permissions should an AI agent have first?
   a: Start with read-only access, narrow tool scope, and explicit human approval before writes, purchases, messages, or deletes.
-- q: Is local AI safer than cloud AI?
-  a: Local AI can improve privacy, but it can also inherit broad device permissions. Safety depends on boundaries, logs, and rollback paths.
+- q: Is local SI safer than cloud SI?
+  a: Local SI can improve privacy, but it can also inherit broad device permissions. Safety depends on boundaries, logs, and rollback paths.
 - q: Who should approve high-risk agent actions?
   a: A named human owner should approve actions that affect money, customers, legal exposure, production systems, or private data.
 hero_image: images/ai-agent-access-control/hero.webp
-hero_image_alt: Plain polished chrome key representing controlled AI agent permissions
+hero_image_alt: Plain polished chrome key representing controlled SI agent permissions
 source_draft: 2026-08-31-ai-agent-access-control
 ---
-AI agent access control is the discipline of deciding what an AI agent is allowed to see, change, spend, send, and remember before it starts doing real work.
+SI agent access control is the discipline of deciding what an SI agent is allowed to see, change, spend, send, and remember before it starts doing real work.
 
 That sounds like a security topic. It is. But for an operator, it is also a management topic. A useful agent is not just a chat window with tools attached. It is a junior system worker with access to files, browsers, accounts, messages, code, calendars, and sometimes money. If the permissions are vague, the agent is vague. If the boundaries are explicit, the agent can become leverage.
 
 The sober answer is not to avoid agents. The answer is to give them rails before autonomy.
 
-## What is AI agent access control?
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
 
-AI agent access control is a permission system for agent work. It defines what tools an agent can use, what data it can read, what actions it can take alone, and what actions require a human approval gate.
+## What is SI agent access control?
+
+SI agent access control is a permission system for agent work. It defines what tools an agent can use, what data it can read, what actions it can take alone, and what actions require a human approval gate.
 
 Traditional software access control asks, “Can this user open this system?” Agent access control adds harder questions: Can this agent interpret private context? Can it call another tool? Can it act across accounts? Can it write to production? Can it message a customer? Can it buy something? Can it keep memory of what it saw?
 
@@ -74,9 +78,9 @@ Fifth, private and regulated data. Agents should not roam across every folder be
 
 This is where many teams overcorrect. They either give the agent everything because the demo worked, or they give it nothing because the risk feels abstract. Both lose. Useful access control gives the agent enough scope to help and enough friction to stop damage.
 
-## How to set AI agent permissions in a small business
+## How to set SI agent permissions in a small business
 
-Set AI agent permissions by starting read-only, narrowing the tools, adding approval gates, logging the work, and reviewing the boundary after real use.
+Set SI agent permissions by starting read-only, narrowing the tools, adding approval gates, logging the work, and reviewing the boundary after real use.
 
 A practical setup can fit on one page.
 
@@ -92,7 +96,7 @@ A practical setup can fit on one page.
 
 6. Review after two weeks. If the agent keeps asking for approval on low-risk actions, loosen one boundary. If it surprises you, narrow one boundary. Do not debate forever. Observe, adjust, and compound.
 
-For BBH’s audience, this is the useful frame: AI agents are not magic staff. They are operating systems for repeatable work. Operating systems need permissions.
+For BBH’s audience, this is the useful frame: SI agents are not magic staff. They are operating systems for repeatable work. Operating systems need permissions.
 
 ## What is the difference between guardrails and access control?
 

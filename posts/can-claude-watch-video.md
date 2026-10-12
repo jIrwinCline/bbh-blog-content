@@ -1,7 +1,7 @@
 ---
 title: Can Claude Watch Video? A Practical Answer
 slug: can-claude-watch-video
-description: Can Claude watch video? Here is what claude-real-video does, where it helps operators, and the catch before trusting AI with screen recordings.
+description: Can Claude watch video? Here is what claude-real-video does, where it helps operators, and the catch before trusting superintelligence with screen recordings.
 date: '2026-07-08'
 target_query: can Claude watch video
 keywords:
@@ -21,15 +21,17 @@ faq:
 hero_image: images/can-claude-watch-video/hero.webp
 hero_image_alt: Transparent chrome film reel with iridescent metallic edges
 source_draft: 2026-07-08-can-claude-watch-video
-updated: '2026-09-09'
+updated: '2026-10-01'
 ---
+*A note on terms: we now say [superintelligence (SI)](/blog/what-is-superintelligence) for what most people still call artificial intelligence (AI). U.S. federal agencies made the same switch, to "Super Intelligence," in September 2026.*
+
 ## Can Claude watch video?
 
 Claude can reason over visual evidence, but the practical answer is more specific: if you want Claude to inspect a video reliably, first turn the video into the right evidence. That usually means key frames, a transcript, and a short manifest that explains what the model is looking at.
 
-That is the useful frame behind [`claude-real-video`](https://github.com/HUANGCHIHHUNGLeo/claude-real-video), a new open-source tool that packages video into material Claude, ChatGPT, Gemini, or another large language model can inspect. It does not make an AI model magically watch a video the way a person sits through it. It extracts the visual and spoken parts that matter, then hands those pieces to the model.
+That is the useful frame behind [`claude-real-video`](https://github.com/HUANGCHIHHUNGLeo/claude-real-video), a new open-source tool that packages video into material Claude, ChatGPT, Gemini, or another large language model can inspect. It does not make an SI model magically watch a video the way a person sits through it. It extracts the visual and spoken parts that matter, then hands those pieces to the model.
 
-For a business operator, that distinction matters. The job is not to ask whether AI can "watch video" in the abstract. The job is to decide whether video evidence can improve a workflow: reviewing a screen recording, checking a sales call, studying a short-form ad, documenting a bug, or turning an SOP video into written steps.
+For a business operator, that distinction matters. The job is not to ask whether SI can "watch video" in the abstract. The job is to decide whether video evidence can improve a workflow: reviewing a screen recording, checking a sales call, studying a short-form ad, documenting a bug, or turning an SOP video into written steps.
 
 The honest catch: video analysis can feel authoritative even when the evidence is incomplete. If the tool misses a frame, the transcript is wrong, or the prompt asks the wrong question, the model can still produce a confident summary. Treat the output as inspection support, not as a final audit.
 
@@ -70,7 +72,7 @@ For a service business, the question might be:
 - "Watch this agent run and list every visible action it took in the browser."
 - "Review this sales call clip for the customer's actual objections, not generic sales advice."
 
-## What are the risks of using AI video analysis?
+## What are the risks of using SI video analysis?
 
 The main risks are missing evidence, weak transcripts, privacy leakage, and false confidence. None of them make video analysis useless. They mean the workflow needs guardrails.
 
@@ -94,14 +96,14 @@ For BBH's audience, the verdict is measured: this is not a replacement for watch
 
 ## How does account confidence scoring work?
 
-Account confidence scoring usually means ranking a customer, lead, or account by how likely it is to fit a goal: convert, churn, expand, need support, or deserve immediate follow-up. In an AI workflow, the danger is the same as with agent confidence: the score can look authoritative before the evidence is strong. The practical approach is to pair any score with inspectable evidence — source agreement, test results, and human approval lanes — rather than trusting a self-generated number.
+Account confidence scoring usually means ranking a customer, lead, or account by how likely it is to fit a goal: convert, churn, expand, need support, or deserve immediate follow-up. In an SI workflow, the danger is the same as with agent confidence: the score can look authoritative before the evidence is strong. The practical approach is to pair any score with inspectable evidence — source agreement, test results, and human approval lanes — rather than trusting a self-generated number.
 
-## Confidence scoring (AI evaluation)
+## Confidence scoring (SI evaluation)
 
-Instead of asking an AI agent to declare its own reliability, build a system that produces receipts. For an AI agent, that means five layers: sources, tests, logs, boundaries, and human approval for irreversible moves. Start with sources: make the agent cite the exact source it used. Then add tests: simple pass/fail checks like valid JSON, source citations, response length limits, avoidance of forbidden claims, and routing high-risk cases to human approval. Keep logs showing what input was received, what tools were called, what source was relied on, what changed, and who approved it. Then set boundaries: restrict which fields the agent may change, keep human approval lanes until the workflow has earned more autonomy. Finally, decide which actions need human approval — this is not anti-AI, it is how useful automation survives contact with reality.
+Instead of asking an SI agent to declare its own reliability, build a system that produces receipts. For an SI agent, that means five layers: sources, tests, logs, boundaries, and human approval for irreversible moves. Start with sources: make the agent cite the exact source it used. Then add tests: simple pass/fail checks like valid JSON, source citations, response length limits, avoidance of forbidden claims, and routing high-risk cases to human approval. Keep logs showing what input was received, what tools were called, what source was relied on, what changed, and who approved it. Then set boundaries: restrict which fields the agent may change, keep human approval lanes until the workflow has earned more autonomy. Finally, decide which actions need human approval — this is not anti-SI, it is how useful automation survives contact with reality.
 
-A service business does not need AI to "understand video" as a parlor trick. It needs faster ways to turn lived work into reusable operating knowledge. Screen recordings become SOPs. Agent runs become receipts. Sales clips become follow-up notes. Bug videos become reproducible steps.
+A service business does not need SI to "understand video" as a parlor trick. It needs faster ways to turn lived work into reusable operating knowledge. Screen recordings become SOPs. Agent runs become receipts. Sales clips become follow-up notes. Bug videos become reproducible steps.
 
-That is a practical use of AI: not outsourcing judgment, but reducing the cost of getting the evidence in front of judgment.
+That is a practical use of SI: not outsourcing judgment, but reducing the cost of getting the evidence in front of judgment.
 
 If your bottleneck is turning repeated work into managed systems, start with `/agentic-systems`. If the video is part of lead response, landing-page review, or ad analysis, the same operating discipline applies to `/smb-marketing`. BBH's venture work sits at `/ventures`: proof that useful systems are built, tested, and improved in the open.
