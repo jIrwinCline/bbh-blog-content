@@ -1,7 +1,7 @@
 ---
 title: Can Claude Watch Video? A Practical Answer
 slug: can-claude-watch-video
-description: Can Claude watch video? Here is what claude-real-video does, where it helps operators, and the catch before trusting AI with screen recordings.
+description: Can Claude watch video files or YouTube links? Learn what uploads support, how to supply frames and transcripts, and how to check a video summary.
 date: '2026-07-08'
 target_query: can Claude watch video
 keywords:
@@ -10,24 +10,30 @@ keywords:
 - AI video analysis
 - LLM video analysis
 - AI agents screen recordings
+- can Claude watch video files
+- can Claude watch videos on YouTube
+- can Claude watch videos and summarize
+- can Claude watch videos I upload
 pillar: Agentic ops & leverage
 faq:
 - q: Can Claude analyze a video file directly?
-  a: Claude can reason over visual material, but this workflow makes video practical by extracting key frames and transcripts first, then giving Claude the evidence.
+  a: MP4 and MOV are not listed in Claude's supported chat uploads. Extract timestamped still images and a transcript, then give Claude those supported inputs.
 - q: What is claude-real-video?
   a: claude-real-video is an open-source tool that turns a video or URL into key frames, a transcript, and a manifest an LLM can inspect.
 - q: Is claude-real-video private?
   a: The tool processes frames locally, but you still choose what to paste into an LLM. Privacy depends on what evidence you upload or share afterward.
+- q: Can Claude watch videos on YouTube?
+  a: A YouTube URL alone does not establish that Claude inspected the video. Use an authorized extraction workflow and provide timestamped frames plus captions or a transcript.
 hero_image: images/can-claude-watch-video/hero.webp
-hero_image_alt: Transparent chrome film reel with iridescent metallic edges
+hero_image_alt: Red and black camera lens with a visible aperture on a dark background
 source_draft: 2026-07-08-can-claude-watch-video
-updated: '2026-09-09'
+updated: '2026-11-02'
 ---
 ## Can Claude watch video?
 
-Claude can reason over visual evidence, but the practical answer is more specific: if you want Claude to inspect a video reliably, first turn the video into the right evidence. That usually means key frames, a transcript, and a short manifest that explains what the model is looking at.
+Not as a normal MP4 or MOV chat upload: Claude's [supported upload types](https://support.claude.com/en/articles/8241126-what-kinds-of-documents-can-i-upload-to-claude) list documents and still-image formats, not video. The practical workaround is to give Claude timestamped frames and a transcript, so it can inspect evidence from the recording rather than claim to have watched it.
 
-That is the useful frame behind [`claude-real-video`](https://github.com/HUANGCHIHHUNGLeo/claude-real-video), a new open-source tool that packages video into material Claude, ChatGPT, Gemini, or another large language model can inspect. It does not make an AI model magically watch a video the way a person sits through it. It extracts the visual and spoken parts that matter, then hands those pieces to the model.
+That is the useful frame behind [`claude-real-video`](https://github.com/HUANGCHIHHUNGLeo/claude-real-video), an open-source tool that packages video into material Claude or another large language model can inspect. It does not add native video understanding to Claude. It extracts selected visual and spoken evidence, then hands those pieces to the model.
 
 For a business operator, that distinction matters. The job is not to ask whether AI can "watch video" in the abstract. The job is to decide whether video evidence can improve a workflow: reviewing a screen recording, checking a sales call, studying a short-form ad, documenting a bug, or turning an SOP video into written steps.
 
@@ -41,7 +47,23 @@ The important design choice is frame selection. Many simple video-to-LLM workflo
 
 `claude-real-video` says it uses scene-change detection plus deduplication. In plain language: it looks for visual changes, keeps frames that differ, drops near-duplicates, and can pack frames into contact sheets. The project's README gives one example: a 58-second clip where fixed one-frame-per-second sampling produced 58 frames, while the tool kept 26 meaningfully different frames and packed them into three contact sheets.
 
-That is a small implementation detail with a large operational consequence. LLM context is limited. Human attention is limited. A pile of redundant frames makes both worse. A tighter evidence package gives the model less to misunderstand and gives the human reviewer less to verify.
+Treat those figures as the developer's example, not an independent benchmark or a guarantee that nothing gets missed. The useful tradeoff is a smaller review package; the cost is that selection can discard something you needed.
+
+## Can Claude watch video files or animated GIFs I upload?
+
+Video files are not a listed Claude chat input, and an animated GIF is not a reliable substitute. Anthropic's [vision documentation](https://platform.claude.com/docs/en/build-with-claude/vision) says animations are unsupported and only the first frame is used.
+
+Use labeled still images instead. The same documentation supports multiple images in a request and recommends short labels so you can refer to them. For video review, add the original timestamp to each label: “Frame 4, source time 00:01:12.” Keep the transcript separate and label it as speech, not visual evidence.
+
+This distinction matters for a bug report. A screenshot can show the wrong selected option; the transcript can say the user clicked something else. Neither alone establishes the entire sequence. Ask for the missing evidence rather than letting a fluent answer bridge the gap.
+
+## Can Claude watch YouTube videos from a link?
+
+A pasted YouTube URL is not proof that Claude inspected the footage. For the workflow here, extract authorized video material first, then provide the resulting frames and transcript to Claude.
+
+The project's README documents URL input and a local viewer for checking what was extracted. It also warns to download only content you have rights to access. Do not hand over account cookies or private video access just to get a summary.
+
+If all you need is a speaker's outline, captions may be sufficient. Say explicitly that the result is based on the transcript. If you need to know what changed in a spreadsheet, what appeared on screen, or whether a step actually happened, include frames from that interval. “The speaker said the invoice was sent” and “the interface showed a sent confirmation” are different claims.
 
 ## When would a business use Claude to inspect video?
 
@@ -56,7 +78,7 @@ The best early use cases are not cinematic. They are operational:
 - A training video that needs to become a checklist or SOP
 - A recorded agent run that needs a human-readable receipt
 
-This connects directly to agentic operations. A useful agent should not only say "done." It should leave evidence. Simon Willison's [`shot-scraper`](https://github.com/simonw/shot-scraper) project, for example, includes the ability to record video demos of web work through Playwright. Pair that kind of run recording with a video-inspection tool and you get a stronger review loop: the agent acts, records what happened, then another model helps summarize the proof for a person.
+This connects directly to agentic operations. A useful agent should not only say "done." It should leave evidence. Pair a recording of its work with timestamped inspection and the human reviewer can compare the claimed result with the visible sequence. A recording still does not prove that a database saved a change; check the actual destination when that matters.
 
 That does not remove the human. It gives the human a better starting point. Instead of rewatching a ten-minute screen recording from scratch, the operator can review key frames, transcript excerpts, and the model's proposed summary.
 
@@ -70,11 +92,17 @@ For a service business, the question might be:
 - "Watch this agent run and list every visible action it took in the browser."
 - "Review this sales call clip for the customer's actual objections, not generic sales advice."
 
+For summaries and notes, use this review brief:
+
+> Use only the attached frames and transcript. Separate visible events from spoken claims. For each proposed step or action item, cite a frame timestamp or transcript passage. Mark anything you cannot establish as unknown. Do not infer completion from someone saying they completed it.
+
+The current project README describes `frames.json` for frame timestamps, `transcript.json` for speech segments, and `MANIFEST.txt` for the evidence inventory. Keep those together. A note that points back to its source is easier to correct than a polished paragraph with no trail.
+
 ## What are the risks of using AI video analysis?
 
 The main risks are missing evidence, weak transcripts, privacy leakage, and false confidence. None of them make video analysis useless. They mean the workflow needs guardrails.
 
-Missing evidence is the first risk. Scene detection is better than blind sampling for many videos, but it is still a compression step. Compression always chooses. A frame that matters to your business may not look visually dramatic to the extractor. For critical review, keep access to the source video and spot-check the model's answer against it.
+Missing evidence is the first risk. Scene detection and deduplication choose what to retain. A frame that matters to your business may not look visually dramatic to the extractor. For critical review, keep access to the source video and spot-check the model's answer against it.
 
 Transcript quality is the second risk. Video tools often rely on speech transcription, subtitles, or both. If the audio is noisy, multilingual, fast, or full of product names, the transcript can drift. Any quote that will be sent to a customer, used in training, or treated as a promise should be checked against the recording.
 
@@ -92,16 +120,16 @@ If the sequence is accurate, you have a workflow candidate. If the summary is he
 
 For BBH's audience, the verdict is measured: this is not a replacement for watching important footage. It is a way to make routine footage inspectable. That is where the leverage sits.
 
-## How does account confidence scoring work?
+## How do you check whether a video summary is useful?
 
-Account confidence scoring usually means ranking a customer, lead, or account by how likely it is to fit a goal: convert, churn, expand, need support, or deserve immediate follow-up. In an AI workflow, the danger is the same as with agent confidence: the score can look authoritative before the evidence is strong. The practical approach is to pair any score with inspectable evidence — source agreement, test results, and human approval lanes — rather than trusting a self-generated number.
+Check the summary against the recording, not against how convincing it sounds. Choose a short, non-sensitive clip whose outcome you already know, then inspect every action item the model proposes.
 
-## Confidence scoring (AI evaluation)
+For an SOP, check whether the steps are in order, whether an important exception was omitted, and whether spoken advice was mistakenly written as a mandatory rule. For a sales clip, verify quoted words and who said them before adding a customer promise to your CRM. For a bug report, confirm that the cited frames actually show the failure.
 
-Instead of asking an AI agent to declare its own reliability, build a system that produces receipts. For an AI agent, that means five layers: sources, tests, logs, boundaries, and human approval for irreversible moves. Start with sources: make the agent cite the exact source it used. Then add tests: simple pass/fail checks like valid JSON, source citations, response length limits, avoidance of forbidden claims, and routing high-risk cases to human approval. Keep logs showing what input was received, what tools were called, what source was relied on, what changed, and who approved it. Then set boundaries: restrict which fields the agent may change, keep human approval lanes until the workflow has earned more autonomy. Finally, decide which actions need human approval — this is not anti-AI, it is how useful automation survives contact with reality.
+Keep a simple pass/fail record: supported statements, unsupported statements, missed steps, and time spent correcting the result. This is a proposed pilot method, not a tested performance claim. If correction takes as long as writing the notes yourself, reduce the scope or stop. A useful summary should make the next decision easier without hiding the work needed to verify it.
 
 A service business does not need AI to "understand video" as a parlor trick. It needs faster ways to turn lived work into reusable operating knowledge. Screen recordings become SOPs. Agent runs become receipts. Sales clips become follow-up notes. Bug videos become reproducible steps.
 
 That is a practical use of AI: not outsourcing judgment, but reducing the cost of getting the evidence in front of judgment.
 
-If your bottleneck is turning repeated work into managed systems, start with `/agentic-systems`. If the video is part of lead response, landing-page review, or ad analysis, the same operating discipline applies to `/smb-marketing`. BBH's venture work sits at `/ventures`: proof that useful systems are built, tested, and improved in the open.
+If your bottleneck is turning repeated work into managed systems, explore [Agentic Systems](/agentic-systems). If the video supports lead response, landing-page review, or ad analysis, the same discipline belongs in [SMB marketing](/smb-marketing): evidence first, then an accountable next action.
